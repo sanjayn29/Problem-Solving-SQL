@@ -39,4 +39,3 @@ SELECT * FROM STUDENT;
 
 #drop table
 DROP TABLE STUDENT;
-
