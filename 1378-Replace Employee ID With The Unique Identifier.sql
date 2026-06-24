@@ -1,0 +1,1 @@
+SELECT UNI.unique_id, EMP.name FROM Employees AS EMP LEFT JOIN EmployeeUNI AS UNI ON UNI.id = EMP.id;
