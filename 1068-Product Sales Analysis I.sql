@@ -1,0 +1,1 @@
+SELECT PRO.product_name, SAL.year, SAL.price FROM Sales AS SAL LEFT JOIN Product AS PRO ON PRO.product_id = SAL.product_id;
