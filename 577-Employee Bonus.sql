@@ -1,0 +1,1 @@
+SELECT EMP.name, BON.bonus FROM Employee EMP LEFT JOIN Bonus BON ON EMP.empId = BON.empId WHERE BON.bonus < 1000 OR BON.bonus IS NULL;
